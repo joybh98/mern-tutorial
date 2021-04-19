@@ -15,8 +15,5 @@ const exerciseSchema = new Schema({
 
 const Exercise = mongoose.model('Exercise', exerciseSchema);
 
-app.use('/exercises',exercisesRouter);
-app.user('/users',userRouter);
-
 
 module.exports = Exercise;
